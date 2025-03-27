@@ -15,7 +15,7 @@ sudo mount -o remount,rw /  > /dev/null
 
 # Run Pistar update script before adding BC
 sudo pistar-update > /dev/null
-# Set to R/W becuase pi-star update will try and set R/O
+# Set to R/W because pi-star update will try and set R/O
 # Update files needed for new Nextion functions
 sudo apt-get install bc  > /dev/null
 # Check and Remove Nextion_Temp if it exists
